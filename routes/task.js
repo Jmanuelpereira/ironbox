@@ -2,8 +2,8 @@ const express = require('express');
 const router  = express.Router();
 
 /* GET user page */
-router.get('/user-dash', (req, res, next) => {
-  res.render('user/userDashboard');
+router.get('/task', (req, res, next) => {
+  res.render('task/allTask');
 });
 
 module.exports = router;
