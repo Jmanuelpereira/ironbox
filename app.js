@@ -47,7 +47,7 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 // default value for title local
-app.locals.title = 'Ironcaller - The best app to remind you';
+app.locals.title = 'Ironcaller';
 
 app.use('/', require('./routes/index'));
 app.use('/', require('./routes/user'));
